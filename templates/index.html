@@ -1,0 +1,15 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FarmHarvest</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to FarmHarvest!</h1>
+    <!-- Add an HTML element to display the products -->
+    <div id="products"></div>
+    <!-- Reference the external JavaScript file -->
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

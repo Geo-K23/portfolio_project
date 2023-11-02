@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Poultry Products</title>
+</head>
+<body>
+    <h1>Poultry Products for Sale</h1>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.name }} - Price: ${{ product.price }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

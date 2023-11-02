@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Fresh Eggs",
+        "price": 2.50,
+        "quantity": 100,
+        "seller": "Farm A",
+        "phone": "+256234567890",
+        "description": "Organic eggs from free-range chickens."
+    },
+    {
+        "id": 2,
+        "name": "Whole Chicken",
+        "price": 8.99,
+        "quantity": 50,
+        "seller": "Farm B",
+        "phone": "+256123456789",
+        "description": "Whole chicken, raised without antibiotics."
+    }
+]
